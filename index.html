@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Practico 1 (opcional)</title>
 </head>
 <body>
-    <section>
-        <section>
-            <img src="" alt="">
-            <h1>Tripify</h1>
-            <h2>Explore your dream destinations</h2>
-            <p>Welcome to Tripify! Please enter your login credentials to acces your account and explore our wide range of travel options.</p>
-            <hr>
+    <section class="contenedor">
+        <section class="titulos">
+            <div>
+                <img src="icono.ico" alt="">
+                <h1 class="signika-titulos">TRIPIFY</h1>
+            </div>
+            <div class="descripcion">
+                <h2>Explore your dream destinations</h2>
+                <p>Welcome to Tripify! Please enter your login credentials to access your account and explore our wide range of travel options.</p>
+            </div>
         </section>
-        <section>
+        <section class="formulario">
+            <hr>
             <form action="">
                 <label for="">Email</label>
-                <input type="text">
+                <input type="text" class="inputText">
                 <label for="">Password</label>
-                <input type="password">
-                <button>LOG IN</button>
+                <input type="password" class="inputText">
+                <button  type="submit" class="inputText boton">LOG IN</button>
             </form>
-        </section>
-        <section>
-            <p>Don't have an account?</p>
-            <p>Register</p>
+            <p class="pie">Don't have an account? <a href="#">Register</a></p>
         </section>
     </section>
 </body>
