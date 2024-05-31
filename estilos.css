@@ -140,6 +140,7 @@ a{
 /*Pagina 2*/
 .nuevoContenedor{
     width: 85%;
+    margin-top: 35px;
 }
 
 .nuevoTitulo{
@@ -149,6 +150,7 @@ a{
 .services{
     color: #1139af;
     font-weight: bold;
+    padding-top: 15px;
 }
 
  .nuevoh2{
@@ -156,6 +158,7 @@ a{
     padding-bottom: 10px;
     padding-top: 20px;
     color: #1d2b61;
+    font-weight: bolder;
 }
 
 .nuevop{
@@ -190,4 +193,14 @@ a{
 
 .imgCard{
     width: 85%;
+}
+
+.textoCard{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #1d2b61;
+}
+
+.textoCard p {
+    margin-top: 7px;
 }
