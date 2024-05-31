@@ -45,6 +45,8 @@ body{
     flex-direction: column;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
 }
+
+
 .titulos{
     justify-content: center;
     display: flex;
@@ -94,7 +96,7 @@ hr{
     opacity: 0.3;
 }
 
-img{
+.imgagenes{
     width: 60px;
     padding-top: 3vh;
     padding-left: 30vh;
@@ -133,4 +135,59 @@ a{
     font-weight: bolder;
     color: black;
     opacity: 0.9;
+}
+
+/*Pagina 2*/
+.nuevoContenedor{
+    width: 85%;
+}
+
+.nuevoTitulo{
+    padding-top: 60px;
+}
+
+.services{
+    color: #1139af;
+    font-weight: bold;
+}
+
+ .nuevoh2{
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: #1d2b61;
+}
+
+.nuevop{
+    font-size: 12.5px;
+    margin-top: 5px;
+}
+
+.contenedorCards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    padding-right: 40px;
+    margin-left: 25px;
+}
+
+.cards{
+    width: 25%;
+    text-align: left;
+    margin-left: 25px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedorImagen{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgCard{
+    width: 85%;
 }
